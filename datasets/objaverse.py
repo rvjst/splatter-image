@@ -13,7 +13,7 @@ from .shared_dataset import SharedDataset
 from utils.graphics_utils import getProjectionMatrix, fov2focal
 from utils.camera_utils import get_loop_cameras
 
-OBJAVERSE_ROOT = "/home/hamdol/splatter-image/objaverse/views_release" # Change this to your data directory
+OBJAVERSE_ROOT = "file_location" # Change this to your data directory
 OBJAVERSE_LVIS_ANNOTATION_PATH = "/home/hamdol/splatter-image/objaverse/lvis-annotations-filtered.json" # Change this to your filtering .json path
 assert OBJAVERSE_ROOT is not None, "Update dataset path"
 assert OBJAVERSE_LVIS_ANNOTATION_PATH is not None, "Update filtering .json path"
