@@ -12,7 +12,7 @@ from .objaverse import ObjaverseDataset
 
 from utils.graphics_utils import getProjectionMatrix
 
-GSO_ROOT = "/home/hamdol/Downloads/google_scanned_objects/scratch/shared/beegfs/cxzheng/dataset_new/google_scanned_blender_25_w2c" # Change this to your data directory
+GSO_ROOT = "file_location" # Change this to your data directory
 assert GSO_ROOT is not None, "Update path of the dataset"
 
 class GSODataset(ObjaverseDataset):
